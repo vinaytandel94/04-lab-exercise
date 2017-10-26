@@ -35,3 +35,15 @@ section {
 section:hover {
   background: #666;
 }
+
+@media screen and (min-width: 500px) {
+	body {
+		background: blue;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	body {
+		background: red;
+	}
+}
